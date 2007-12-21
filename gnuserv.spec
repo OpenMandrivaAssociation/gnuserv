@@ -8,6 +8,7 @@ Patch1:         gnuserv-3.12.4-configure-destdir.patch.bz2
 Patch2:         gnuserv-3.12.5-fixdisplay.patch.bz2
 License:        GPL
 Group:          Editors
+BuildRoot:      %_tmppath/%name-buildroot
 BuildRequires:  emacs-nox
 Url:            http://meltin.net/hacks/emacs/
 Requires:       emacs
