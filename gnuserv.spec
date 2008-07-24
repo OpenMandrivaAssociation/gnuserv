@@ -1,7 +1,7 @@
 Summary:        Allows you to attach to an already running Emacs
 Name:           gnuserv
 Version:        3.12.8
-Release:        %mkrel 1
+Release:        %mkrel 3
 Source0:        http://meltin.net/hacks/emacs/src/%name-%version.tar.bz2
 Source1:        emacs-gnuserv-start.el.bz2
 Patch1:         gnuserv-3.12.4-configure-destdir.patch.bz2
