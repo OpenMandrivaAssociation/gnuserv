@@ -54,3 +54,77 @@ rm -rf %buildroot
 %_bindir/*
 %_datadir/emacs/site-lisp/%name
 %_mandir/man1/*
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 3.12.8-5mdv2011.0
++ Revision: 619218
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 3.12.8-4mdv2010.0
++ Revision: 429286
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 3.12.8-3mdv2009.0
++ Revision: 246505
+- rebuild
+
+* Tue Feb 05 2008 Funda Wang <fwang@mandriva.org> 3.12.8-1mdv2008.1
++ Revision: 162531
+- update to new version 3.12.8
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Oct 15 2007 Funda Wang <fwang@mandriva.org> 3.12.7-2mdv2008.1
++ Revision: 98741
+- Rebuild for new era
+
+  + Emmanuel Andry <eandry@mandriva.org>
+    - Import gnuserv
+
+
+
+* Thu Jul 07 2005 Lenny Cartier <lenny@mandriva.com> 3.12.7-1mdk
+- 3.12.7
+
+* Thu Jun 03 2004 Michael Scherer <misc@mandrake.org> 3.12.6-3mdk 
+- rebuild for new libintl
+
+* Wed Sep 03 2003 Michael Scherer <scherer.michael@free.fr> 3.12.6-2mdk 
+- BuildRequires emacs-nox
+
+* Sun Jul 27 2003 Han Boetes <han@linux-mandrake.com> 3.12.6-1mdk
+- Bump
+- Cleanups
+- Remove .el, gnuserv works fine without them.
+
+* Wed Apr 30 2003 Lenny Cartier <lenny@mandrakesoft.com> 3.12.5-3mdk
+- buildprereq
+
+* Tue Feb 18 2003 Chmouel Boudjnah <chmouel@mandrakesoft.com> 3.12.5-2mdk
+- Fix display to another DISPLAY (freebsd patch)(thanks
+  han@mijncomputer.nl).
+
+* Tue Jan  7 2003 Chmouel Boudjnah <chmouel@mandrakesoft.com> 3.12.5-1mdk
+- Requires: emacs.
+- Bump to version 3.12.5.
+
+* Thu Aug 01 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 3.12.4-4mdk
+- remove useless prefix
+- rebuild for new libintl
+
+* Thu Nov 22 2001 Chmouel Boudjnah <chmouel@mandrakesoft.com> 3.12.4-3mdk
+- Add URL.
+- Defalias server-start gnuserv-start when installing.
+
+* Mon Nov 19 2001 Chmouel Boudjnah <chmouel@mandrakesoft.com> 3.12.4-2mdk
+- Fix DESTDIR with makeinstall.
+
+* Mon Oct  1 2001 Chmouel Boudjnah <chmouel@mandrakesoft.com> 3.12.4-1mdk
+- First version.
+
+# end of file

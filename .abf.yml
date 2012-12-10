@@ -1,3 +1,5 @@
 sources:
-  "emacs-gnuserv-start.el.bz2:"	32ee6405d62e1bb102e71cb8d68880fc013c17c5
-  "gnuserv-3.12.8.tar.bz2:"	e00c57fa55079993ea92b8e5dcf1f03ab794418b
+  "emacs-gnuserv-start.el.bz2": 32ee6405d62e1bb102e71cb8d68880fc013c17c5
+  "gnuserv-3.12.4-configure-destdir.patch.bz2": 368884b0b378b0557326ba1081b29687211e70c5
+  "gnuserv-3.12.5-fixdisplay.patch.bz2": 68bf9dbe625ad30b78467b9dd97b12d21ac43936
+  "gnuserv-3.12.8.tar.bz2": e00c57fa55079993ea92b8e5dcf1f03ab794418b
