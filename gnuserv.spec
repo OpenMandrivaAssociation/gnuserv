@@ -10,7 +10,7 @@ License:        GPL
 Group:          Editors
 BuildRoot:      %_tmppath/%name-buildroot
 BuildRequires:  emacs-nox
-Url:            http://meltin.net/hacks/emacs/
+Url:            https://meltin.net/hacks/emacs/
 Requires:       emacs
 
 %description
