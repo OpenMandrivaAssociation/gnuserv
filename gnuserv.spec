@@ -9,6 +9,11 @@ Patch2:         gnuserv-3.12.5-fixdisplay.patch.bz2
 License:        GPL
 Group:          Editors
 BuildRoot:      %_tmppath/%name-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  emacs-nox
 Url:            https://meltin.net/hacks/emacs/
 Requires:       emacs
